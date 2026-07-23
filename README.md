@@ -84,7 +84,6 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
     - (16.7s/11.7s, 16s/10.7s, 15.5s/9.1s, 14.5s/9.2s)
     - Generally shorter resolution compared to shots/goals (quick breaks and patient buildup)
 
-<div align="center">
 | Outcome | n | Mean Duration (s) | Median Duration (s) |
 | :---: | :---: | :---: | :---: |
 |Goal | 69 | 32.7 | 14.1 |
@@ -94,13 +93,21 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 |Interception | 105 | 16.0 | 10.7 |
 |Clearance | 315 | 15.5 | 9.1 |
 |Foul won | 659 | 14.5 | 9.2 |
-</div>
 
- 
 ### Q2 - Possession in accordance to events, passes, players, and distance.
-- Shot (no goal) leads on every metric - highest in events (24.7), passes (6.04), player involvements (8.60), and distance travelled (199 yards)
-- Goal = second in → events (21.1) and player involvements (7.39) but middle in passes (5.1) [behind turnovers (5.38) and interception (5.41)]
+- Shot (no goal) leads on every metric - highest in events (24.7), passes (6.0), player involvements (8.6), and distance travelled (199 yards)
+- Goal = second in → events (21.1) and player involvements (7.4) but middle in passes (5.1) [behind turnovers (5.4) and interception (5.4)]
 - Passes has the smallest spread - weak predictor by itself.
+
+| Outcome | n | Mean Events | Mean Passes | Mean Players | Mean Distance |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|Offside | 3 | 19 | 6.7 | 7.3 | 191 |
+|Shot (no goal) | 618 | 24.7 | 6.0 | 8.6 | 199 |
+|Interception | 105 | 18.0 | 5.4 | 6.8 | 129 |
+|Turnover | 3150 | 18.1 | 18.1 | 5.4 | 6.3 | 144 |
+|Goal | 69 | 21.1 | 5.1 | 7.4 | 155 |
+|Clearance | 315 | 16.9 | 5.05 | 6.3 | 122 |
+|Foul Won | 659 | 18.0 | 4.4 | 6.3 | 124 |
 
 ### Q3 - Where do Possessions start?
 - Turnovers dominant every category but is smallest in attacking (49%) compared to defensive and middle third (69.5%, 64.9%) → starting closer to goal reduces the chance of simply losing the ball
