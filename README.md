@@ -174,8 +174,8 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 ## Repository Structure
 
 ```
+├── images/
 ├── 01_setup_and_data.R
 ├── 02_descriptive_analysis.R
-├── images/
 └── README.md
 ```
