@@ -85,7 +85,7 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 - Small sample size for some outcome categories (Offside, n = 3) limit their overall effect on analysis.
 
 ## Key findings
-- Possessions starting in the attacking third are far more likely to produce a shot (31.1%) than those starting in the middle (12.7%) or defensive third (7.96%) — the single strongest effect found in this analysis
+- Possessions starting in the attacking third are far more likely to produce a shot (31.1%) than those starting in the middle (12.7%) or defensive third (7.96%)
 - Only ~14% of all possessions produce a shot, and of those, ~10% result in a goal
 - Goal-scoring possessions have the highest mean duration (32.7s) of any outcome, but a much lower median (14.1s) — a mix of quick breaks and patient buildup, rather than one consistent pattern
 - Passing volume alone is a weak predictor of whether a possession creates a shot — total events (which include carries and dribbles) differentiate far more clearly
