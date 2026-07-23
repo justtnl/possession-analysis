@@ -172,10 +172,10 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 2. Run `02_descriptive_analysis.R` — loads the saved possession data and produces the summary tables and charts shown in this README
 
 ## Repository Structure
-├
-── 01_setup_and_data.R
-├
-── 02_descriptive_analysis.R
-├
-── images/
+
+```
+├── 01_setup_and_data.R
+├── 02_descriptive_analysis.R
+├── images/
 └── README.md
+```
