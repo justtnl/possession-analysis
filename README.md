@@ -114,15 +114,30 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 - Combined shot + goal rate = attacking (31.1%) vs. defensive (7.96%) vs. middle (12.7%) → attacking third produces 2.5-4x more likely to produce a shot than the other two
 - Foul won is highest in defensive half (15.7%) and middle (13.6%) compared to attacking (7.45%) → consistent with teams defending and committing fouls early to prevent counters or attack from reaching dangerous areas.
 
+
 ### Q4 - How many passes lead to a shot?
 - Passing is a weak differentiator to determine if possession actually leads to goals → mean gap is small (5.94 v 5.20).
 - Gap found in Q2 (shot attempt v goal) is much larger than found here → suggests non-passing actions matter more to creating a shot than passing
+
+| Led to a shot | n | Mean passes | Median passes |
+| :---: | :---: | :---: | : --- : |
+|FALSE | 4232 | 5.2 | 4 |
+|TRUE | 687 | 5.94 | 4 |
 
 ### Q5 - Does possession speed matter?
 - Shot (no goal) → has the highest mean and median speed (9.14yps, 8.45yps)
 - Only 2 categories have the median speed greater than mean → clearance and offside (5.75yps v 6.53 yps, 5.25 yps v 7.47 yps), so left-skewed by some slow possessions are dragging the average down
 - Overall ranking → shot (no goal) > goal > turnover > foul won > interception > clearance (offside excluded n=3 → too small)
 
+| Outcome | n | Mean Speed | Median Speed |
+| :---: | :---: | :---: | :---: |
+|Shot (no goal) | 616 | 9.1 | 8.5 |
+|Goal | 69 | 8.4 | 8.1 |
+|Turnover | 2984 | 8.2 | 7.7 |
+|Foul Won | 655 | 7.0 | 6.7 |
+|Interception | 105 | 6.7 | 6.5 |
+|Clearance | 315 | 5.8 | 6.5 |
+|Offside | 3 | 5.3 | 7.5 |
 
 ### Q6 - How does possession end?
 - Turnovers are highest at 64% > foul won (13.4%) > shot (no goal) - 12.6% > clearance (6.4%) > interception (2.13%) > goal (1.4%)
