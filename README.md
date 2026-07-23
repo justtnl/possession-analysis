@@ -120,7 +120,7 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 - Gap found in Q2 (shot attempt v goal) is much larger than found here → suggests non-passing actions matter more to creating a shot than passing
 
 | Led to a shot | n | Mean passes | Median passes |
-| :---: | :---: | :---: | : --- : |
+| :---: | :---: | :---: | :---: |
 |FALSE | 4232 | 5.2 | 4 |
 |TRUE | 687 | 5.94 | 4 |
 
