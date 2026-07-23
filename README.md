@@ -78,7 +78,7 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 ## Detailed results
 ### Q1 - How long are successful possessions?
 - Goal and Shot (no goal) have highest mean duration (32.7s, 26.3s)
-    - Mean/median gap (32.7s, 14.1s) → highest = right-skewed distribution
+    - Mean/median gap (32.7s, 14.1s) → highest = right-skewed distribution (some possessions that are longer than the median affect gap) 
     - Shot to goal conversion rate = ~10%
 - Turnover, Interception, Clearance and Foul won → mean/median gap is closer
     - (16.7s/11.7s, 16s/10.7s, 15.5s/9.09s, 14.5s/9.17s)
@@ -86,7 +86,8 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 
 | Outcome | n | Mean Duration (s) | Median Duration (s) |
 | --- | --- | --- | --- |
-
+|Goal | 69 | 32.7 | 14.1 |
+| --- | --- | --- | --- |
 
  
 ### Q2 - Possession in accordance to events, passes, players, and distance.
