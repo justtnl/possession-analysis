@@ -17,8 +17,6 @@
     - time of possession
 - How does possession end? (Q6)
     - goal
-    - shot saved
-    - shot off target
     - interception
     - tackles
     - offside
@@ -35,7 +33,7 @@ Penalties were excluded (StatsBomb 'period == 5') were identified and removed fr
 
 ### Outcome classification
 Goal 
-  - A possession including a shot that results in a goal. 
+  - A possession including a shot that results in a goal or an own goal. 
 
 Shot (no goal)
   - A possession including a shot that did not result in a goal.
@@ -78,7 +76,7 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 - Passing volume alone is a weak predictor of whether a possession creates a shot — total events (which include carries and dribbles) differentiate far more clearly
 
 ## Detailed results
-Q1.
+### Q1 - How long are successful possessions?
 - Goal and Shot (no goal) have highest mean duration (32.7s, 26.3s)
     - Mean/median gap (32.7s, 14.1s) → highest = right-skewed distribution
     - Shot to goal conversion rate = ~10%
@@ -86,27 +84,62 @@ Q1.
     - (16.7s/11.7s, 16s/10.7s, 15.5s/9.09s, 14.5s/9.17s)
     - Generally shorter resolution compared to shots/goals (quick breaks and patient buildup)
  
-Q2. 
+| 
+Outcome
+|
+n
+|
+Mean Duration (s)
+|
+---
+Median Duration (s)
+---
+|
+|
+---
+|
+---
+|
+---
+|
+---
+|
+|
+---
+Goal
+|
+---
+69
+|
+32.7
+|
+14.1
+|
+|
+
+
+ 
+### Q2 - Possession in accordance to events, passes, players, and distance.
 - Shot (no goal) leads on every metric - highest in events (24.7), passes (6.04), player involvements (8.60), and distance travelled (199 yards)
 - Goal = second in → events (21.1) and player involvements (7.39) but middle in passes (5.1) [behind turnovers (5.38) and interception (5.41)]
 - Passes has the smallest spread - weak predictor by itself.
 
-Q3.
+### Q3 - Where do Possessions start?
 - Turnovers dominant every category but is smallest in attacking (49%) compared to defensive and middle third (69.5%, 64.9%) → starting closer to goal reduces the chance of simply losing the ball
 - Combined shot + goal rate = attacking (31.1%) vs. defensive (7.96%) vs. middle (12.7%) → attacking third produces 2.5-4x more likely to produce a shot than the other two
 - Foul won is highest in defensive half (15.7%) and middle (13.6%) compared to attacking (7.45%) → consistent with teams defending and committing fouls early to prevent counters or attack from reaching dangerous areas.
 
-Q4.
+### Q4 - How many passes lead to a shot?
 - Passing is a weak differentiator to determine if possession actually leads to goals → mean gap is small (5.94 v 5.20).
-- Gap found in section 2 (shot attempt v goal) is much larger than found here → suggests non-passing actions matter more to creating a shot than passing
+- Gap found in Q2 (shot attempt v goal) is much larger than found here → suggests non-passing actions matter more to creating a shot than passing
 
-Q5. 
+### Q5 - Does possession speed matter?
 - Shot (no goal) → has the highest mean and median speed (9.14yps, 8.45yps)
 - Only 2 categories have the median speed greater than mean → clearance and offside (5.75yps v 6.53 yps, 5.25 yps v 7.47 yps), so left-skewed by some slow possessions are dragging the average down
 - Overall ranking → shot (no goal) > goal > turnover > foul won > interception > clearance (offside excluded n=3 → too small)
-- 
 
-Q6. 
+
+### Q6 - How does possession end?
 - Turnovers are highest at 64% > foul won (13.4%) > shot (no goal) - 12.6% > clearance (6.4%) > interception (2.13%) > goal (1.4%)
   - Turnovers dominate → consistent with football being a low-scoring sport where most possessions lead to no shot on goal
 - Only 14% of possession produce a shot at goal, only 10% of those result in a goal
