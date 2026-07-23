@@ -1,7 +1,19 @@
 # Possession Analysis - What characteristics of a possession make it more likely to end in a shot or goal?
 
 ## Table of contents
-[Data Source](#data-source)
+- [Data Source](#data-source)
+- [Research Questions](#research-questions)
+- [Methodology](#methodology)
+- [Key Findings](#key-findings)
+- [Detailed Results](#detailed-results)
+  - [Q1 - How long are successful possessions?](#q1---how-long-are-successful-possessions)
+  - [Q2 - Possession in accordance to events, passes, players, and distance](#q2---possession-in-accordance-to-events-passes-players-and-distance)
+  - [Q3 - Where do possessions start?](#q3---where-do-possessions-start)
+  - [Q4 - How many passes lead to a shot?](#q4---how-many-passes-lead-to-a-shot)
+  - [Q5 - Does possession speed matter?](#q5---does-possession-speed-matter)
+  - [Q6 - How does possession end?](#q6---how-does-possession-end)
+- [How To Run This Project](#how-to-run-this-project)
+- [Repository structure](#repository-structure)
 
 ## Data Source
 - Data provided by [StatsBomb Open Data]. This project uses their publicly available Copa América 2024 event data for research and educational purposes. Events were pulled using the [StatsBombR](https://github.com/statsbomb/StatsBombR) package.
