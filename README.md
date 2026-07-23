@@ -80,7 +80,7 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 
 ### Limitations
 - Data only analyses a small section of the full data catalogue found in StatsBomb (Copa America 2024). Findings may not generalise other leagues or competitions. 
-- Distance is measured in a straight line - curved balls or passes that are not straight, are not accounted for. Thus, true distance may be shorter.
+- Distance is measured in a straight line - curved balls or passes that are not straight are not accounted for. Thus, true distance may be shorter.
 - This analysis does not go in-depth on specific categories such as progressive carrying or the direction of passes.
 - Small sample size for some outcome categories (Offside, n = 3) limit their overall effect on analysis.
 
