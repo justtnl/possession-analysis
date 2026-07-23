@@ -81,13 +81,19 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
     - Mean/median gap (32.7s, 14.1s) → highest = right-skewed distribution (some possessions that are longer than the median affect gap) 
     - Shot to goal conversion rate = ~10%
 - Turnover, Interception, Clearance and Foul won → mean/median gap is closer
-    - (16.7s/11.7s, 16s/10.7s, 15.5s/9.09s, 14.5s/9.17s)
+    - (16.7s/11.7s, 16s/10.7s, 15.5s/9.1s, 14.5s/9.2s)
     - Generally shorter resolution compared to shots/goals (quick breaks and patient buildup)
 
 | Outcome | n | Mean Duration (s) | Median Duration (s) |
 | --- | --- | --- | --- |
 |Goal | 69 | 32.7 | 14.1 |
-| --- | --- | --- | --- |
+|Shot (no goal) | 618 | 26.3 | 16.0 |
+|Offside | 3 | 25.9 | 19.1 |
+|Turnover | 3150 | 16.7 | 11.7 |
+|Interception | 105 | 16.0 | 10.7 |
+|Clearance | 315 | 15.5 | 9.1 |
+|Foul won | 659 | 14.5 | 9.2 |
+
 
  
 ### Q2 - Possession in accordance to events, passes, players, and distance.
