@@ -84,8 +84,9 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
     - (16.7s/11.7s, 16s/10.7s, 15.5s/9.1s, 14.5s/9.2s)
     - Generally shorter resolution compared to shots/goals (quick breaks and patient buildup)
 
+<div align="center">
 | Outcome | n | Mean Duration (s) | Median Duration (s) |
-| :--- | ---: | ---: | :---: |
+| :---: | :---: | :---: | :---: |
 |Goal | 69 | 32.7 | 14.1 |
 |Shot (no goal) | 618 | 26.3 | 16.0 |
 |Offside | 3 | 25.9 | 19.1 |
@@ -93,7 +94,7 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 |Interception | 105 | 16.0 | 10.7 |
 |Clearance | 315 | 15.5 | 9.1 |
 |Foul won | 659 | 14.5 | 9.2 |
-
+</div>
 
  
 ### Q2 - Possession in accordance to events, passes, players, and distance.
