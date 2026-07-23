@@ -85,18 +85,16 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
     - Generally shorter resolution compared to shots/goals (quick breaks and patient buildup)
  
 | 
-Outcome
+    Outcome
 |
-n
+    n
 |
-Mean Duration (s)
-|
----
-Median Duration (s)
----
-|
+    Mean Duration (s)
 |
 ---
+    Median Duration (s)
+---
+|
 |
 ---
 |
@@ -104,16 +102,18 @@ Median Duration (s)
 |
 ---
 |
+---
+|
 |
 ---
-Goal
+    Goal
 |
 ---
-69
+    69
 |
-32.7
+    32.7
 |
-14.1
+    14.1
 |
 |
 
