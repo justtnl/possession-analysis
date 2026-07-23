@@ -83,39 +83,9 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 - Turnover, Interception, Clearance and Foul won → mean/median gap is closer
     - (16.7s/11.7s, 16s/10.7s, 15.5s/9.09s, 14.5s/9.17s)
     - Generally shorter resolution compared to shots/goals (quick breaks and patient buildup)
- 
-| 
-    Outcome
-|
-    n
-|
-    Mean Duration (s)
-|
----
-    Median Duration (s)
----
-|
-|
----
-|
----
-|
----
-|
----
-|
-|
----
-    Goal
-|
----
-    69
-|
-    32.7
-|
-    14.1
-|
-|
+
+| Outcome | n | Mean Duration (s) | Median Duration (s) |
+| --- | --- | --- | --- |
 
 
  
