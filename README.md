@@ -1,5 +1,8 @@
 # Possession Analysis - What characteristics of a possession make it more likely to end in a shot or goal?
 
+## Table of contents
+[Data Source](#data-source)
+
 ## Data Source
 - Data provided by [StatsBomb Open Data]. This project uses their publicly available Copa América 2024 event data for research and educational purposes. Events were pulled using the [StatsBombR](https://github.com/statsbomb/StatsBombR) package.
 
@@ -18,7 +21,7 @@
 - How does possession end? (Q6)
     - goal
     - interception
-    - tackles
+    - turnover
     - offside
     - clearance
 
@@ -104,7 +107,7 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 |Offside | 3 | 19 | 6.7 | 7.3 | 191 |
 |Shot (no goal) | 618 | 24.7 | 6.0 | 8.6 | 199 |
 |Interception | 105 | 18.0 | 5.4 | 6.8 | 129 |
-|Turnover | 3150 | 18.1 | 18.1 | 5.4 | 6.3 | 144 |
+|Turnover | 3150 | 18.1 | 5.4 | 6.3 | 144 |
 |Goal | 69 | 21.1 | 5.1 | 7.4 | 155 |
 |Clearance | 315 | 16.9 | 5.05 | 6.3 | 122 |
 |Foul Won | 659 | 18.0 | 4.4 | 6.3 | 124 |
@@ -114,6 +117,7 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 - Combined shot + goal rate = attacking (31.1%) vs. defensive (7.96%) vs. middle (12.7%) → attacking third produces 2.5-4x more likely to produce a shot than the other two
 - Foul won is highest in defensive half (15.7%) and middle (13.6%) compared to attacking (7.45%) → consistent with teams defending and committing fouls early to prevent counters or attack from reaching dangerous areas.
 
+![Possession outcome by starting third](images/outcome_by_starting_third.png)
 
 ### Q4 - How many passes lead to a shot?
 - Passing is a weak differentiator to determine if possession actually leads to goals → mean gap is small (5.94 v 5.20).
@@ -143,3 +147,20 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 - Turnovers are highest at 64% > foul won (13.4%) > shot (no goal) - 12.6% > clearance (6.4%) > interception (2.13%) > goal (1.4%)
   - Turnovers dominate → consistent with football being a low-scoring sport where most possessions lead to no shot on goal
 - Only 14% of possession produce a shot at goal, only 10% of those result in a goal
+
+![How possessions end](images/outcome_distribution.png)
+
+## How to run this project
+**Requirements:** R, with the following packages
+- `StatsBombR` (installed via `devtools::install_github("statsbomb/StatsBombR")`)
+- `tidyverse`
+
+**Steps:**
+1. Run `01_setup_and_data.R` — pulls Copa América 2024 event data from StatsBomb, cleans it, and builds the possession-level dataset (`data/possessions.rds`)
+2. Run `02_descriptive_analysis.R` — loads the saved possession data and produces the summary tables and charts shown in this README
+
+## Repository Structure
+├── 01_setup_and_data.R
+├── 02_descriptive_analysis.R
+├── images/
+└── README.md
