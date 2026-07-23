@@ -125,7 +125,7 @@ Administrative/non-footballing events (half-time, substitutions, injury stoppage
 |Foul Won | 659 | 18.0 | 4.4 | 6.3 | 124 |
 
 ### Q3 - Where do Possessions start?
-- Turnovers dominate every category but is smallest in attacking (49%) compared to defensive and middle third (69.5%, 64.9%) → starting closer to goal reduces the chance of simply losing the ball
+- Turnovers dominate every third but are smallest in attacking (49%) compared to defensive and middle third (69.5%, 64.9%) → starting closer to goal reduces the chance of simply losing the ball
 - Combined shot + goal rate = attacking (31.1%) vs. defensive (7.96%) vs. middle (12.7%) → attacking third produces 2.5-4x more likely to produce a shot than the other two
 - Foul won is highest in defensive half (15.7%) and middle (13.6%) compared to attacking (7.45%) → consistent with teams defending and committing fouls early to prevent counters or attack from reaching dangerous areas.
 
